@@ -1343,6 +1343,17 @@ html {
   color: var(--color-black);
 }
 
+/* Certifications */
+.certifications {
+  padding: 5rem 0;
+}
+
+.certifications__note {
+  margin-top: 2rem;
+  color: var(--color-text-secondary);
+  text-align: center;
+}
+
 .testimonials__slider {
   position: relative;
   max-width: 800px;
