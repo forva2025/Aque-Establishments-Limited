@@ -855,7 +855,10 @@ html {
   display: flex;
   align-items: center;
   position: relative;
-  background: linear-gradient(135deg, var(--brand-primary) 0%, #3b82f6 100%);
+  background: linear-gradient(rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35)), url('https://images.pexels.com/photos/585419/pexels-photo-585419.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=1920&h=1080');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   overflow: hidden;
 }
 
