@@ -1008,6 +1008,7 @@ html {
 .services-highlight {
   padding: 5rem 0;
   background: var(--brand-light-gray);
+  color: var(--color-black);
 }
 
 .services-grid {
@@ -1025,6 +1026,7 @@ html {
   box-shadow: var(--shadow-light);
   transition: var(--transition);
   border: 1px solid var(--color-card-border);
+  color: var(--color-black);
 }
 
 .service-card:hover {
@@ -1061,11 +1063,11 @@ html {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .service-card p {
-  color: var(--color-text-secondary);
+  color: var(--color-black);
   line-height: 1.6;
 }
 
@@ -1119,7 +1121,7 @@ html {
   font-size: 1.1rem;
   line-height: 1.8;
   margin-bottom: 1.5rem;
-  color: var(--color-text-secondary);
+  color: var(--color-black);
 }
 
 .about__values {
@@ -1135,6 +1137,7 @@ html {
   background: var(--color-bg-1);
   border-radius: 15px;
   transition: var(--transition);
+  color: var(--color-black);
 }
 
 .value-item:hover {
@@ -1152,17 +1155,18 @@ html {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .value-item p {
-  color: var(--color-text-secondary);
+  color: var(--color-black);
 }
 
 /* Services Section */
 .services {
   padding: 5rem 0;
   background: var(--brand-light-gray);
+  color: var(--color-black);
 }
 
 .services__grid {
@@ -1179,6 +1183,7 @@ html {
   transition: var(--transition);
   text-align: center;
   border: 1px solid var(--color-card-border);
+  color: var(--color-black);
 }
 
 .service-detail-card:hover {
@@ -1216,11 +1221,11 @@ html {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 1rem;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .service-detail-card p {
-  color: var(--color-text-secondary);
+  color: var(--color-black);
   line-height: 1.6;
   margin-bottom: 2rem;
 }
@@ -1282,18 +1287,11 @@ html {
   overflow: hidden;
 }
 
-.project-placeholder {
+.project-card__image img {
   width: 100%;
   height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background: linear-gradient(135deg, var(--brand-primary), #3b82f6);
-}
-
-.project-placeholder i {
-  font-size: 3rem;
-  color: var(--brand-white);
+  object-fit: cover;
+  display: block;
 }
 
 .project-card__content {
@@ -1305,11 +1303,11 @@ html {
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .project-location {
-  color: var(--color-text-secondary);
+  color: var(--color-black);
   font-size: 0.9rem;
   margin-bottom: 1rem;
   display: flex;
@@ -1318,7 +1316,7 @@ html {
 }
 
 .project-card__content p {
-  color: var(--color-text-secondary);
+  color: var(--color-black);
   line-height: 1.6;
   margin-bottom: 1rem;
 }
@@ -1339,6 +1337,7 @@ html {
 .testimonials {
   padding: 5rem 0;
   background: var(--brand-light-gray);
+  color: var(--color-black);
 }
 
 .testimonials__slider {
@@ -1357,6 +1356,7 @@ html {
   margin: 0 1rem;
   display: none;
   border: 1px solid var(--color-card-border);
+  color: var(--color-black);
 }
 
 .testimonial-card.active {
@@ -1383,7 +1383,7 @@ html {
   font-size: 1.2rem;
   line-height: 1.6;
   margin-bottom: 1.5rem;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
   font-style: italic;
 }
 
@@ -1439,6 +1439,7 @@ html {
   border-radius: 20px;
   box-shadow: var(--shadow-light);
   border: 1px solid var(--color-card-border);
+  color: var(--color-black);
 }
 
 .form-group {
@@ -1449,7 +1450,7 @@ html {
   display: block;
   margin-bottom: 0.5rem;
   font-weight: 500;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .form-control {
@@ -1460,7 +1461,7 @@ html {
   font-size: 1rem;
   transition: var(--transition);
   background: var(--brand-white);
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .form-control:focus {
@@ -1482,6 +1483,7 @@ html {
   padding: 1.5rem;
   background: var(--color-bg-1);
   border-radius: 15px;
+  color: var(--color-black);
 }
 
 .contact-info-item i {
@@ -1494,12 +1496,12 @@ html {
   font-size: 1.1rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--brand-charcoal);
+  color: var(--color-black);
 }
 
 .contact-info-item p,
 .contact-info-item a {
-  color: var(--color-text-secondary);
+  color: var(--color-black);
   text-decoration: none;
 }
 
